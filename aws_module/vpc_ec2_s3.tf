@@ -1,5 +1,5 @@
 module "vpc_ec2_s3" {
-  source      = "../aws_modules/vpc_ec2_s3"
+  source      = "../all_resources"
   subnet_cidr = "10.0.1.0/24"
   ec2_type    = "t2.micro"
 
